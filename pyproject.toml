@@ -1,0 +1,20 @@
+[project]
+name = "storybook-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "juanixxx2402", email = "juanda2402@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "piper-tts>=1.8.0",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+storybook-ia = "storybook_ia:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

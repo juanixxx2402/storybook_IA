@@ -1,0 +1,32 @@
+# Entorno y archivos temporales
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Modelos y ejecutables descargados
+models/
+tools/
+voces/
+*.gguf
+*.safetensors
+*.onnx
+*.onnx.json
+*.exe
+*.dll
+
+# Historias y pruebas generadas
+salidas/
+prueba-modelos/
+cuento.json
+ambientes.json
+*.wav
+prueba-bosque.png
